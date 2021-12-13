@@ -246,7 +246,7 @@ namespace EasyNote.Views
                 //return;
             }
             //validacion campos vacios
-            else if (Vnotaid == null || Vdescrip == null || Vimagen == null || Vnotaid == "" || Vdescrip == "" || Vimagen == "")
+            else if (Vnotaid == null || Vdescrip == null || Vnotaid == "" || Vdescrip == "")
             {
                 await DisplayAlert("Alerta", "Campos Vacios!!", "OK");
             }
